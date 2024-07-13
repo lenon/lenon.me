@@ -1,0 +1,50 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin: auto;
+}
+
+.footer {
+  padding-bottom: 1em;
+}
+
+p {
+  font-size: 3rem;
+  text-align: center;
+  color: #fcf6bd;
+  font-family: 'Comic Sans', 'Comic Sans MS', 'Chalkboard', 'ChalkboardSE-Regular', sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 3px 0px #eb452b,
+               6px 6px 0px #efa032,
+               9px 9px 0px #46b59b,
+               12px 12px 0px #017e7f,
+               15px 15px 0px #052939;
+}
+
+a {
+  color: #696969;
+  font-size: .8rem;
+}
